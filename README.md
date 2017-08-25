@@ -1,4 +1,4 @@
-# getthereCodequalityStandards
+# Getthere Code quality Standards
 Get There's global code quality standards used by coworkers within the company. 
 
 ## Java CheckStyle Configuration 
@@ -12,7 +12,7 @@ This is a duplicate of Google Checkstyle's document, with a few changes to the o
 
 One can import this configuration file in IntelliJ by downloading and using the 'checkstyle-IDEA' plugin. 
 
-## TSLINT 
+## Typescript linter (TSLint.json)
 This configuration file enforces a proper use of the Typescript programming language. 
 
 It is a duplicate from release v5.6.0 repo https://github.com/palantir/tslint/blob/master/tslint.json.
