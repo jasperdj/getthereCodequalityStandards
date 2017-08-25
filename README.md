@@ -13,3 +13,12 @@ This is a duplicate of Google Checkstyle's document, with a few changes to the o
 One can import this configuration over HTTP in IntelliJ by downloading the 'checkstyle-IDEA' plugin. 
 `https://raw.githubusercontent.com/jasperdj/getthereCodequalityStandards/master/javaCheckstyleConfiguration.xml`
 
+## TSLINT 
+This configuration file enforces a proper use of the Typescript programming language. 
+
+It is a duplicate from release v5.6.0 repo https://github.com/palantir/tslint/blob/master/tslint.json.
+
+One can import this configuration by downloadig the file and adding it to the project root and then activate IntelliJ's TSLint plugin in the settings. (Ctrl + alt + s - search for 'tslint'). 
+
+
+
