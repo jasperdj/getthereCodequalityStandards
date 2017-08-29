@@ -4,6 +4,9 @@ Get There's global code quality standards used by coworkers within the company.
 ## Git strategy 
 We use the GIT flow strategy. For simplification and automation one can use `Git Flow integration` plugin for IntelliJ. 
 
+## Optional IntelliJ plugins
+`.ignore` for intelligent .ignore file integration with git.  
+
 ## Java CheckStyle Configuration 
 This configuration file enforces a proper use of the Java programming language. 
 
