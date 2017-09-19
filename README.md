@@ -17,6 +17,7 @@ This is a duplicate of Google Checkstyle's document, with a few changes to the o
 - Catch exception naming convention changed from ^[a-z][a-z0-9][a-zA-Z0-9]*$ to ^[a-z][a-zA-Z0-9]*$; name convention allows for names like 'e'. 
 - Abbreviations in class names can now contain 3 extra uppercase characters, I.E. UserDTO
 - 'Avoid star import' exclusions added for annotations and javax locations. 
+- Indentation force Strict condition to false with standard settings to meet IntelliJ standards. 
 
 One can import this configuration file in IntelliJ by downloading and using the 'checkstyle-IDEA' plugin. 
 
