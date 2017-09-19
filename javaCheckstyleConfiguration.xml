@@ -29,7 +29,11 @@ Checkstyle configuration based on the Google coding conventions
       <property name="ignorePattern" value="^package.*|^import.*|a href|href|http://|https://|ftp://"/>
       <property name="max" value="120"/>
     </module>
-    <module name="AvoidStarImport"/>
+    <module name="AvoidStarImport">
+	  <property name="excludes" value="java.io,java.net,java.lang.Math,javax.persistence,org.springframework.web.bind.annotation"/>
+      <property name="allowClassImports" value="false"/>
+      <property name="allowStaticMemberImports" value="false"/>
+	</module>
     <module name="OneTopLevelClass"/>
     <module name="NoLineWrap"/>
     <module name="EmptyBlock">
@@ -120,7 +124,7 @@ Checkstyle configuration based on the Google coding conventions
       <property name="arrayInitIndent" value="4"/>
     </module>
     <module name="AbbreviationAsWordInName">
-      <property name="allowedAbbreviationLength" value="1"/>
+      <property name="allowedAbbreviationLength" value="3"/>
       <property name="ignoreFinal" value="false"/>
     </module>
     <module name="OverloadMethodsDeclarationOrder"/>
